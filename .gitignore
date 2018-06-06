@@ -18,6 +18,7 @@ logs/
 *.exe
 *.pdb
 *.chw
+*.vcxproj
 
 # -------------[ OS generated ]------------------------ #
 .DS_Store
@@ -294,3 +295,6 @@ Thumbs.db
 /kbe/src/lib/python/python-config
 /kbe/src/lib/python/python-config.py
 /kbe/src/lib/python/python-gdb.py
+
+# Visual Studio
+*.vcxproj

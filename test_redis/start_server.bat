@@ -16,7 +16,7 @@ echo KBE_RES_PATH = %KBE_RES_PATH%
 echo KBE_BIN_PATH = %KBE_BIN_PATH%
 
 start %KBE_BIN_PATH%/machine.exe --cid=1000 --gus=1
-start %KBE_BIN_PATH%/logger.exe --cid=2000 --gus=2
+REM start %KBE_BIN_PATH%/logger.exe --cid=2000 --gus=2
 start %KBE_BIN_PATH%/interfaces.exe --cid=3000 --gus=3
 start %KBE_BIN_PATH%/dbmgr.exe --cid=4000 --gus=4
 start %KBE_BIN_PATH%/baseappmgr.exe --cid=5000 --gus=5
